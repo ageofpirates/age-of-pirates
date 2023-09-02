@@ -4,12 +4,12 @@
 
 1. [Download the setup script](https://cdn.discordapp.com/attachments/679041670775570466/1147233508595597523/aop_setup.ps1). You can [check the script's contents here](https://gist.github.com/ageofpirates/584105a0f6f306c427da9236bf0a1f70) if you want to make sure it's safe.
 2. Run Powershell as administrator.
-3. Paste the following command into the Powershell window and press enter:
+3. Paste the following command into the Powershell window (replace `C:\Users\Alice\Downloads` with the path to the folder where you downloaded the setup script), press enter, and follow the instructions:
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+Set-Location "C:\Users\Alice\Downloads"
+.\aop_setup.ps1
 ```
-4. Drag-and-drop the setup script into the Powershell window and press enter.
-5. Follow the instructions.
 
 ## 2. Contributing code
 
